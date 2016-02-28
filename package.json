@@ -1,0 +1,22 @@
+{
+  "name": "realtime-whiteboard",
+  "version": "1.0.0",
+  "description": "a simple app with node.js, p5.js, and socket.io to allow users accross browsers to share a whiteboard",
+  "main": "server.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "node",
+    "p5",
+    "socket",
+    "whiteboard"
+  ],
+  "author": "Ross Edfort",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.13.4",
+    "p5": "^0.4.22",
+    "socket.io": "^1.4.5"
+  }
+}

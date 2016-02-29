@@ -1,9 +1,6 @@
-var socket;
-
 function setup() {
   createCanvas(windowWidth - 150, windowHeight - 200);
   background(255);
-  socket = io.connect('http://fierce-crag-43533.herokuapp.com/');
 
   socket.on('mouse',
     function(data) {

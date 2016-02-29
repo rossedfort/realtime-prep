@@ -1,5 +1,6 @@
 function setup() {
-  createCanvas(windowWidth - 150, windowHeight - 200);
+  whiteboard = createCanvas(windowWidth - 150, windowHeight - 200);
+  whiteboard.parent('container')
   background(255);
 
   socket.on('mouse',
